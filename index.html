@@ -11,7 +11,12 @@
     html{scroll-behavior:smooth}
     body{background:#f4f8ff;color:#222}
     header{background:#0066cc;color:white;padding:15px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;box-shadow:0 3px 12px rgba(0,0,0,.15)}
-    .logo{font-size:23px;font-weight:bold}
+    .logo img{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  object-fit:cover;
+    }
     nav a{color:white;text-decoration:none;margin-left:18px;font-weight:bold}
     nav a:hover{opacity:.8}
     .hero{min-height:70vh;display:flex;justify-content:center;align-items:center;text-align:center;padding:50px 20px;background:linear-gradient(135deg,#005bea,#00c6fb);color:white}
@@ -58,7 +63,7 @@
 
 <body>
   <header>
-    <div class="logo">🛍️ Khudra Dukan</div>
+    <div class="logo"><img src="khudra-dukan-logo.png" alt="Khudra Dukan Logo"> Khudra Dukan</div>
     <nav>
       <a href="#home">Home</a>
       <a href="#products">Products</a>
